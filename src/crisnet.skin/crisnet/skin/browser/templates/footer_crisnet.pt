@@ -1,10 +1,6 @@
-<!-- crisnet -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
-      i18n:domain="plone">
-
-<body>
-
-<div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone">
+<div id="footer-crisnet" 
+     metal:define-macro="portal_footer" 
+     i18n:domain="plone">
 
 Coordination, Recherche et traitement de l' Information en Soins de sant&eacute; primaire, Network asbl<br>
 Si&egrave;ge social : Rue des Aulnois, 25 - B-7090 Hennuy&egrave;res (Belgique)<br>
@@ -15,6 +11,3 @@ Copyright &copy; 2004 -
            tal:content="now/year"/>
 by <a href = "http://www.crisnet.be" target=_blank>CRISNET asbl</a>
 </div>
-
-</body>
-</html>

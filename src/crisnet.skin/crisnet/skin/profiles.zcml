@@ -5,7 +5,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="crisnet.skin"
+      title="Crisnet Skin"
       directory="profiles/default"
       description='Extension profile for the "crisnet.skin" Plone theme.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
