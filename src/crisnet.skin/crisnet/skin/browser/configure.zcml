@@ -9,22 +9,8 @@
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="crisnet.skin"
       />
-  
+
   <!-- Viewlets registration -->
   <!-- Zope 3 browser resources -->
-
-  <!-- Resource directory for images -->
-  <browser:resourceDirectory
-      name="crisnet.skin.images"
-      directory="images"
-      layer=".interfaces.IThemeSpecific"
-      />
-
-  <!-- Resource directory for stylesheets -->
-  <browser:resourceDirectory
-      name="crisnet.skin.stylesheets"
-      directory="stylesheets"
-      layer=".interfaces.IThemeSpecific"
-      />
 
 </configure>
