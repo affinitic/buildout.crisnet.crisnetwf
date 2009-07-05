@@ -1,1 +1,1 @@
-CrisnetWf http://svn.affinitic.be/plone/crisnet/CrisnetWf/
+CrisnetWf http://svn.affinitic.be/plone/crisnet/CrisnetWf.skin/trunk
