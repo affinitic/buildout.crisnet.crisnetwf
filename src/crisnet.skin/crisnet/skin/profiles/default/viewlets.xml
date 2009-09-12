@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <object>
-    <hidden manager="plone.portalfooter" skinname="CrisnetSkin">
-        <viewlet name="plone.footer"/>
-        <viewlet name="plone.colophon"/>
-    </hidden>
+    
     <hidden manager="plone.portaltop" skinname="CrisnetSkin">
         <viewlet name="plone.personnal_bar"/>
         <viewlet name="plone.header"/>
+    </hidden>
+    <hidden manager="plone.portalfooter" skinname="CrisnetSkin">
+        <viewlet name="plone.footer"/>
+        <viewlet name="plone.colophon"/>
     </hidden>
 
     <order manager="plone.portaltop" skinname="CrisnetSkin">

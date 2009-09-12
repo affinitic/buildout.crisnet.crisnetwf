@@ -12,7 +12,7 @@ from plone.app.layout.viewlets.common import GlobalSectionsViewlet
 from zope.component import getMultiAdapter
 
 
-class CrisnetSectionsViewlet(GlobalSectionsViewlet):
+class CrisnetHeaderViewlet(GlobalSectionsViewlet):
     render = ViewPageTemplateFile('templates/header_crisnet.pt')
 
     def logo_tag(self):
@@ -24,4 +24,3 @@ class CrisnetSectionsViewlet(GlobalSectionsViewlet):
 
 class CrisnetFooterViewlet(GlobalSectionsViewlet):
     render = ViewPageTemplateFile('templates/footer_crisnet.pt')
-

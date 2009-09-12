@@ -8,14 +8,14 @@
         <interface
             interface=".interfaces.ICrisnetTheme"
             type="zope.publisher.interfaces.browser.IBrowserSkinType"
-            name="crisnet.skin"
+            name="CrisnetSkin"
             />
 
       <!-- crisnet header -->
       <browser:viewlet
           name="crisnet.header"
-          manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-          class=".viewlets.CrisnetSectionsViewlet"
+          manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+          class=".viewlets.CrisnetHeaderViewlet"
           layer=".interfaces.ICrisnetTheme"
           permission="zope.Public"
           />

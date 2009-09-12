@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
-<object name="portal_skins" allow_any="False" cookie_persistence="False"
-   default_skin="CrisnetSkin">
+<object name="portal_skins" 
+        allow_any="False" 
+        cookie_persistence="False">
 
- <object name="crisnet_skin_custom_images"
+ <object name="crisnet_images"
          meta_type="Filesystem Directory View"
          directory="crisnet.skin:skins/crisnet_images"/>
- <object name="crisnet_skin_custom_templates"
+ <object name="crisnet_templates"
          meta_type="Filesystem Directory View"
          directory="crisnet.skin:skins/crisnet_templates"/>
- <object name="crisnet_skin_styles"
+ <object name="crisnet_styles"
          meta_type="Filesystem Directory View"
          directory="crisnet.skin:skins/crisnet_styles"/>
 

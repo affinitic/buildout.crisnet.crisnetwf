@@ -3,9 +3,8 @@
   <import-step id="crisnet.skin.various"
                version="20090705-01"
                handler="crisnet.skin.setuphandlers.setupVarious"
-               title="crisnet.skin: miscellaneous import steps">
+               title="CrisnetSkin: miscellaneous import steps">
     <dependency step="skins" />
-    Various import steps that are not handled by GS import/export
-    handlers.
+    Setup portal for crisnet skin
   </import-step>
 </import-steps>
