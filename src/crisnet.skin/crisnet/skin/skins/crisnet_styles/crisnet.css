@@ -431,3 +431,11 @@ color:#000 !important;
 .state-external {
 color:#000 !important;
 }
+
+.state-internally_published {
+color:#00F !important;
+}
+
+.state-internal {
+color:#0F741E !important;
+}
