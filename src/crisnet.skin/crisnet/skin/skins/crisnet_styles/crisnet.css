@@ -416,3 +416,14 @@ line-height:1.5em;
 margin:0 0 0.75em;
 text-align:justify;
 }
+
+
+
+/*** STYLE ETAT WORKFLOW ***/
+.state-visible {
+color:#0F741E !important;
+}
+
+.state-published {
+color:#000 !important;
+}
