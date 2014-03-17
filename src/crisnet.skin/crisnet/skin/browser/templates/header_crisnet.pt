@@ -1,8 +1,0 @@
-<div id="header-crisnet">
-    <div id="crisnet-logo">
-        <a href=""
-           tal:attributes="href string: ${context/portal_url}">
-        </a>
-    </div>
-</div>
-<div class="visualClear"></div>
